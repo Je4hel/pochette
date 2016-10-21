@@ -1,0 +1,138 @@
+html {
+    background-color: whitesmoke;
+}
+
+body {
+    width: 800px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    
+    background-color: white;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.navbar-brand {
+    height: auto;
+    font-size: 2em;
+    line-height: normal;
+}
+
+nav #navbar-alert {
+    width: 100%;
+    min-height: 62px;
+    padding: 0;
+    border: none;
+}
+
+nav #navbar-alert span.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+    border: none;
+    border-radius: 0;
+}
+
+#navbar-alert span.close-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.7em;
+}
+
+#navbar-alert span.close-icon:hover {
+    cursor: pointer;
+}
+
+#unread-progress {
+    margin-bottom: 20px;
+    
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    color: #777;
+    background-color: #f8f8f8;
+    
+    border: 1px solid #e7e7e7;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#unread-progress .progress-bar {
+    max-width: 90%;
+    margin-right: 5px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.page-header {
+    margin: 40px 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+    
+    border: none;
+}
+
+#links .link-container a {
+    display: block;
+    margin-bottom: 30px;
+    padding: 20px;
+    
+    color: inherit;
+    text-decoration: inherit;
+    background-color: white;
+    box-shadow: lightgrey 0 0 5px 0px;
+}
+
+#links .link-container a:hover {
+    background-color: #337ab7;
+    color: white;
+}
+
+#links .link-container h2, #links .link-container p {
+    margin: 0;
+}
+
+#links .link-container h2 {
+    position: relative;
+    font-size: 1.35em;
+}
+
+#links .link-container .link-date {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0.7em;
+}
+
+#links .link-container p {
+    margin-top: 10px;
+}
+
+.modal form {
+    margin: 15px;
+}
+
+form .form-modal-controls {
+    margin: 15px 15px 0 15px;
+    text-align: right;
+}
